@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1e52acee-07aa-442e-aa96-62da0a4057eb" solutionId="1e52acee-07aa-442e-aa96-62da0a4057eb" resetWebServer="false" sharePointProductVersion="15.0" name="BMSCFinancedEstate" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="276b7840-e4ff-440d-8f39-ac387880b2c5" />
+  </features>
+</package>

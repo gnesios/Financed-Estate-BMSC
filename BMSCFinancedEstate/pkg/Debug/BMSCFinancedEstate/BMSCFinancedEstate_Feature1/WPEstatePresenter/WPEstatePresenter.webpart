@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BMSCFinancedEstate.WPEstatePresenter.WPEstatePresenter, BMSCFinancedEstate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fc3674c5b8650aff" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Inmuebles Financiados</property>
+        <property name="Description" type="string">Presentador de Inmuebles Financiados.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

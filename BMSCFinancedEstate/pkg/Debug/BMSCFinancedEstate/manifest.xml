@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1e52acee-07aa-442e-aa96-62da0a4057eb" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BMSCFinancedEstate.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="BMSCFinancedEstate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fc3674c5b8650aff" Namespace="BMSCFinancedEstate.WPEstatePresenter" TypeName="*" />
+        <SafeControl Assembly="BMSCFinancedEstate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fc3674c5b8650aff" Namespace="BMSCFinancedEstate.WPPropertyDetails" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\BMSCFinancedEstate\WPEstatePresenter\WPEstatePresenterUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BMSCFinancedEstate\WPPropertyDetails\WPPropertyDetailsUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BMSCFinancedEstate_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

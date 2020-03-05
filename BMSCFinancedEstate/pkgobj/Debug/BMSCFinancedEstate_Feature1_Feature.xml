@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Característica que permite la presentación de 'Inmuebles Financiados' por el Banco." Id="8f0ba960-c2a5-46bb-98dc-b6bb52e96689" Scope="Site" Title="BMSC Inmuebles Financiados">
+  <ElementManifests>
+    <ElementManifest Location="WPEstatePresenter\Elements.xml" />
+    <ElementFile Location="WPEstatePresenter\WPEstatePresenter.webpart" />
+    <ElementManifest Location="WPPropertyDetails\Elements.xml" />
+    <ElementFile Location="WPPropertyDetails\WPPropertyDetails.webpart" />
+  </ElementManifests>
+</Feature>
